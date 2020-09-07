@@ -18,11 +18,11 @@
         <style>
 
 .input{
-				  position: absolute;
-				  top: 65px;
-				  left: 0;
-				  right: 0;
-				}
+	position: absolute;
+	top: 65px;
+	left: 0;
+	right: 0;
+	}
 
         * {
 	margin: 0px;
@@ -54,29 +54,29 @@ body {
 		;
 }
 .server_time_top{
-padding-top: 5px;
-padding-bottom: 5px;
-background-color: red;
-color: black;
-text-align: center;
-font-weight: bold;
-height: 15;
-width: 128;
-border: 1px solid black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: red;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	height: 15;
+	width: 128;
+	border: 1px solid black;
 }
 
 #local_time_top{
-padding-top: 5px;
-padding-bottom: 5px;
-background-color: red;
-color: black;
-text-align: center;
-font-weight: bold;
-margin-left: 135;
-margin-top: -70;
-height: 15;
-width: 145;
-border: 1px solid black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: red;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	margin-left: 135;
+	margin-top: -70;
+	height: 15;
+	width: 145;
+	border: 1px solid black;
 }
 #loading{
 	position: fixed;
