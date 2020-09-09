@@ -93,8 +93,6 @@ body {
 }
 
 .top_ip{
-	//margin-left: 270px;
-	//margin-top: -70px;
 	text-align: center;
 	font-weight: bold;
 	border: 1px solid black;
@@ -129,7 +127,7 @@ body {
 	background-color: rgb(255, 82, 30);
 }
 
-/* Popup box BEGIN */
+
 .hover_bkgr_fricc{
     background:rgba(0,0,0,.4);
     cursor:pointer;
@@ -363,9 +361,7 @@ background: red;
     $(".trigger_popup_fricc").click(function(){
        $('.hover_bkgr_fricc').show();
     });
-   // $('.hover_bkgr_fricc').click(function(){
-     //   $('.hover_bkgr_fricc').hide();
-    //});
+ 
     $('.popupCloseButton').click(function(){
         $('.hover_bkgr_fricc').hide();
     });
