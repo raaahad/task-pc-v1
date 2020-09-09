@@ -823,7 +823,7 @@ setInterval(GetClock,1000);
   <input type="password" name="password_1" placeholder="Password">
 	<input type="password" name="password_2" placeholder="Retype the Password">
 
-  <br><br><button type="submit" name="register_btn" class="lgn_btn" disabled>Register</button>
+  <br><br><button type="submit" name="register_btn" class="lgn_btn">Register</button>
 	<br><br><br><br><h1>OR</h1>
 </form>
 <div class="reg_a">
