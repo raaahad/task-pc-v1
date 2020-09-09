@@ -1,0 +1,109 @@
+.no{
+  margin-left: 0;
+  border: 1px solid red;
+}
+body{
+  margin: 0;
+}
+hr{
+border: 2px solid red;
+margin-left: 50px;
+margin-right: 50px;
+}
+.nd{
+  margin-top: 90px;
+}
+.title{
+  text-align: center;
+  color: green;
+  font-weight: bold;
+}
+.container{
+  width: 100%;
+  position: relative;
+  top: 30px;
+}
+table{
+  width: 100%;
+}
+
+td{
+  width: 100px;
+  text-align: center;
+}
+
+tr{
+  text-align: center;
+}
+placeholder{
+  padding-left: 5px;
+}
+.sub_btn{
+  background-color: lightblue;
+}
+.logininfo{
+  color: blue;
+  letter-spacing: 8px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 160px;
+}
+button.lgn_btn{
+  padding: 3px;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 30px;
+  color: green;
+  background-color: darkorange;
+}
+button.lgn_btn:hover{
+  height: 25px;
+  border-radius: 5px;
+  color: green;
+  background-color: orange;
+}
+div.reg_a{
+  width: 100%;
+  position: absolute;
+  top: 250px;
+}
+.reg_a a{
+  text-decoration: none;
+  background-color: lightgreen;
+  padding: 8px;
+}
+.tableData{
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 200px;
+}
+.data th{
+  height: 20px;
+  background: orange;
+}
+.data tr:hover{
+  background: red;
+}
+.data tr:nth-child(even){
+  background: yellow;
+}
+.data tr:nth-child(odd){
+  background: #27e3a4;
+}
+.data td{
+  padding: 5px;
+  border-collapse: collapse;
+}
+tr.row:hover{
+    background: red;
+}
+@media print{
+	body{
+	background: transparent;
+}
+}
+
