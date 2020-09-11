@@ -1,6 +1,7 @@
 <?php
 	session_start();
-
+	//set the db info file
+	include('config.php');
 	// variable declaration
 	$username = "";
 	$email    = "";
