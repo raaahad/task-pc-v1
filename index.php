@@ -382,7 +382,9 @@ background: red;
 			</div>
 		<?php endif ?>
 		<div class="profile_info">
-			<img src="images/avater.JPG">
+			
+			<img src="images/default_avater.JPG">
+			
 			<a href="index.php?logout='1'" target="_new" style="color: red"><button class="logout_btn" >Logout</button></a>
 
 			<div class= "userinfo">
