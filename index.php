@@ -383,7 +383,11 @@ background: red;
 		<?php endif ?>
 		<div class="profile_info">
 			
-			<img src="images/default_avater.JPG">
+			<div class = "pro-pic">
+			<img src="images/default_avater.png">
+			<input type = "file" name="pic_nge" Value="Upload">
+			</div>
+			
 			
 			<a href="index.php?logout='1'" target="_new" style="color: red"><button class="logout_btn" >Logout</button></a>
 
